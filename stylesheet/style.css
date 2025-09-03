@@ -60,8 +60,8 @@ body {
 }
 
 .about-img {
-  width: 350px;       
-  height: 350px;      
+  width: 250px;       
+  height: 250px;      
   object-fit: cover;   
   border-radius: 0;    
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
@@ -161,28 +161,4 @@ form {
 form label {
   font-weight: bold;
 }
-
-form input[type="text"],
-form input[type="email"] {
-  width: 100%;
-  padding: 8px;
-  margin: 8px 0;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-form input[type="submit"] {
-  background: #4a90e2;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-weight: bold;
-}
-
-form input[type="submit"]:hover {
-  background: #357ABD;
-}
-
 
